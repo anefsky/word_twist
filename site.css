@@ -1,0 +1,126 @@
+body { 
+	text-align: center; 
+ 	background-color: #ECECEA;
+/* 	background-image : url('images/blue_heaven.jpg'); */
+}
+
+#content {
+	position:relative;
+	left:30px;
+	top: 25px;
+}
+
+
+.tile {
+	position : absolute;
+	font-size: 5em;
+	text-align: center;
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #558C89));
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #FFFFFF 0%, #558C89 100%);
+}
+
+#source_palate {
+	position: absolute;
+	left: 0px;
+	top: 200px;
+}
+
+#dest_palate {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#palates_area {
+}
+button#start_game {
+	position: absolute;
+	left: 250px;
+	top: 400px;
+	width: 400px;
+	height: 400px;
+	border-radius: 400px;
+	background-color: #74AFAD;
+	font-size: 64px;
+	z-index: 2;
+}
+
+.tile_pod {
+	position: absolute;
+	border-style: solid;
+	border-radius: 30px;
+	padding: 0;
+/* 	background-color: DeepSkyBlue; */
+	background-color: #74AFAD;
+	z-index: -1;
+}
+#buttons_area {
+	float: left;
+}
+#control_panel {
+	position: absolute;
+	left: 0px;
+	top: 400px;
+}
+
+button {
+	width: 200px;
+	height: 100px;
+	font-size: 30pt;
+	margin-right: 20px;
+	font-size: 30pt;
+	font-weight: bold;
+}
+button#twist_text {
+}
+#readouts_area {
+	font-size: 36pt;	
+	text-align: left;
+	float: left;
+}
+#stopwatch {
+}
+#word_matches_area {
+	position: absolute;
+	left: 0px;
+	top: 575px;
+}
+.words_column {
+	float: left;
+	margin-left: 25px;
+}
+.allowed_word {
+}
+.allowed_word_letter {
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-style: solid;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 36pt;
+	border-color: lightgray;
+	background-color: white;
+}
+.text_transparent {
+	color: transparent;
+}
+.allowed_word :first-child {
+	clear: both;
+}
+.matched_word {
+	color: #D9853B;
+}
+.mounting_post {
+	position: absolute;
+	background-color: yellow;
+	z-index: -1;
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #D9853B));
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #FFFFFF 0%, #D9853B 100%);
+}
+
